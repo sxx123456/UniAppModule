@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/tabs1",
+    "pages/index/tabs2",
+    "pages/index/tabs3"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fb754c",
+    "backgroundColor": "#fb754c",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#fb754c",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/tabs1",
+        "iconPath": "static/tab_ic_sy_normal.png",
+        "selectedIconPath": "static/tab_ic_sy_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/tabs2",
+        "iconPath": "static/tab_ic_kt_normal.png",
+        "selectedIconPath": "static/tab_ic_kt_select.png",
+        "text": "其它"
+      },
+      {
+        "pagePath": "pages/index/tabs3",
+        "iconPath": "static/tab_ic_wd_normal.png",
+        "selectedIconPath": "static/tab_ic_wd_select.png",
+        "text": "其它"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
